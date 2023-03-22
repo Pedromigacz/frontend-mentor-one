@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+// components
+
 export const HeadingLarge = styled.h1`
   font-family: 'Fraunces 144pt';
   font-weight: 600;
@@ -27,3 +29,28 @@ export const BodyText = styled.p`
   font-size: 18px;
   line-height: 32px;
 `;
+
+export const PrimaryButton = styled.button`
+  color: var(--dark-purple);
+  background-color: var(--eucalyptus);
+
+  padding: 15px 25px 14px 25px;
+
+  /* body text styles */
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+
+  transition: 200ms;
+
+  outline: 2px solid var(--eucalyptus);
+  outline-offset: -2px;
+
+  :hover {
+    background-color: transparent;
+    color: var(--eucalyptus);
+  }
+`;
+
+export const SecondaryButton = styled.button``;
