@@ -8,8 +8,6 @@ import Document, {
 } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
-import Script from 'next/script';
-
 export default class MyDocument extends Document {
   static async getInitialProps(
     ctx: DocumentContext
@@ -50,7 +48,7 @@ export default class MyDocument extends Document {
             crossOrigin=''
           />
           <link
-            href='https://fonts.googleapis.com/css2?family=Manrope&display=swap'
+            href='https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap'
             rel='stylesheet'
           />
         </Head>
