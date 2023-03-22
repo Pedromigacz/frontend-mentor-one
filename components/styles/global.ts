@@ -1,6 +1,13 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
+@font-face {
+  font-family: "Fraunces 144p";
+  src: url('/fonts/Fraunces144ptS100-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
 *,
 *::before,
 *::after {
