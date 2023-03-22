@@ -6,6 +6,7 @@ import {
   SectionInnerContainer,
 } from '../shared/styled';
 import PhoneImage from '../../public/Phone.png';
+import WaveComponent from '../icons/wave';
 
 const LadingPage = (): JSX.Element => {
   return (
@@ -21,6 +22,7 @@ const LadingPage = (): JSX.Element => {
           </ImageContainer>
         </SectionInnerContainer>
       </PurpleContainer>
+      <WaveComponent />
     </Section>
   );
 };
@@ -58,8 +60,6 @@ const ImageContainer = styled.div`
   place-items: center;
 
   img {
-    /* margin: 0 auto;
-    display: block; */
     margin-bottom: -233px;
   }
 `;
