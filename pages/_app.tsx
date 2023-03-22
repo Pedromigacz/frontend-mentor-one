@@ -1,5 +1,5 @@
 import Navbar from '@/components/shared/Navbar';
-import GlobalStyle from '@/components/styles/globa';
+import GlobalStyle from '@/components/styles/global';
 import Variables from '@/components/styles/variables';
 import type { AppProps } from 'next/app';
 
