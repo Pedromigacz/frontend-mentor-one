@@ -4,11 +4,6 @@ export default function Home() {
   return (
     <>
       <h1>Hello World</h1>
-      <br />
-      <PrimaryButton>Apply for access</PrimaryButton>
-      <br />
-      <br />
-      <SecondaryButton>Apply for access</SecondaryButton>
     </>
   );
 }
