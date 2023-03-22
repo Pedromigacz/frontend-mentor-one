@@ -53,4 +53,20 @@ export const PrimaryButton = styled.button`
   }
 `;
 
-export const SecondaryButton = styled.button``;
+export const SecondaryButton = styled.button`
+  color: white;
+
+  /* body text styles */
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+
+  transition: 200ms;
+
+  border-bottom: 3px solid var(--eucalyptus);
+
+  :hover {
+    color: var(--eucalyptus);
+  }
+`;
