@@ -70,3 +70,13 @@ export const SecondaryButton = styled.button`
     color: var(--eucalyptus);
   }
 `;
+
+export const SectionInnerContainer = styled.div`
+  margin: 0 auto;
+  padding: 0 39px;
+  max-width: 1188px;
+
+  @media (max-width: 500px) {
+    padding: 0 16px;
+  }
+`;

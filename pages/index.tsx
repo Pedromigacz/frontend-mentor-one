@@ -1,9 +1,9 @@
-import { PrimaryButton, SecondaryButton } from '@/components/shared/styled';
+import LadingPage from '@/components/Home/LadingPage';
 
 export default function Home() {
   return (
     <>
-      <h1>Hello World</h1>
+      <LadingPage />
     </>
   );
 }
