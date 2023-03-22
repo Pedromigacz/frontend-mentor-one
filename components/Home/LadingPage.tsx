@@ -48,6 +48,10 @@ const CustomHeadingLarge = styled(HeadingLarge)`
     text-decoration: underline 3px solid var(--eucalyptus);
     text-underline-offset: 10px;
   }
+
+  @media (max-width: 980px) {
+    max-width: 430px;
+  }
 `;
 
 const CustomPrimaryButton = styled(PrimaryButton)`
