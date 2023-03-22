@@ -7,6 +7,16 @@ export const HeadingLarge = styled.h1`
   font-weight: 600;
   font-size: 80px;
   line-height: 80px;
+
+  @media (max-width: 980px) {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 50px;
+    line-height: 50px;
+  }
 `;
 
 export const HeadingMedium = styled.h2`
