@@ -29,6 +29,7 @@ const LadingPage = (): JSX.Element => {
 
 const Section = styled.section`
   background-color: var(--ghost-white);
+  padding-bottom: 233px;
 `;
 
 const PurpleContainer = styled.div`
@@ -61,6 +62,17 @@ const ImageContainer = styled.div`
 
   img {
     margin-bottom: -233px;
+
+    @media (max-width: 980px) {
+      width: 514px;
+      height: 296px;
+      margin-bottom: -183px;
+    }
+    @media (max-width: 700px) {
+      width: 320px;
+      height: 184px;
+      margin-bottom: -109px;
+    }
   }
 `;
 
